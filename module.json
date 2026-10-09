@@ -1,77 +1,77 @@
 {
-  "id": "journey-to-the-untamed-fields",
-  "title": "Journey to the Untamed Fields",
-  "version": "1.0.0_PE",
-  "compatibility": {
-    "minimum": "14",
-    "verified": "14"
-  },
-  "description": "<p>Full DC20 Adventure for Journey to the Untamed fields.</p><p>This is the personal edition of this module and uses assets not fit for distribution.</p>",
-  "flags": {
-    "canUpload": true
-  },
-  "packs": [
-    {
-      "name": "JTTUFMaps",
-      "label": "Untamed Fields Maps",
-      "path": "packs/JTTUFMaps",
-      "type": "Scene",
-      "system": "dc20rpg",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+    "id": "journey-to-the-untamed-fields",
+    "title": "Journey to the Untamed Fields",
+    "version": "1.0.2_PE",
+    "compatibility": {
+        "minimum": "14",
+        "verified": "14"
     },
-    {
-      "name": "JTTUFCreatures",
-      "label": "Untamed Fields Creatures",
-      "path": "packs/JTTUFCreatures",
-      "type": "Actor",
-      "system": "dc20rpg",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
+    "description": "<p>Full DC20 Adventure for Journey to the Untamed fields.</p><p>This is the personal edition of this module and uses assets not fit for distribution.</p>",
+    "flags": {
+        "canUpload": true
     },
-    {
-      "name": "JTTUFJournalEntries",
-      "label": "Untamed Fields Journals",
-      "path": "packs/JTTUFJournalEntries",
-      "type": "JournalEntry",
-      "system": "dc20rpg",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "JTTUFItems",
-      "label": "Untamed Fields Items",
-      "path": "packs/JTTUFItems",
-      "type": "Item",
-      "system": "dc20rpg",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "JTTUFMonsterTraits",
-      "label": "Untamed Fields Monster Traits",
-      "path": "packs/JTTUFMonsterTraits",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "dc20rpg",
-      "flags": {}
-    }
-  ],
+    "packs": [
+        {
+            "name": "JTTUFMaps",
+            "label": "Untamed Fields Maps",
+            "path": "packs/JTTUFMaps",
+            "type": "Scene",
+            "system": "dc20rpg",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "JTTUFCreatures",
+            "label": "Untamed Fields Creatures",
+            "path": "packs/JTTUFCreatures",
+            "type": "Actor",
+            "system": "dc20rpg",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "JTTUFJournalEntries",
+            "label": "Untamed Fields Journals",
+            "path": "packs/JTTUFJournalEntries",
+            "type": "JournalEntry",
+            "system": "dc20rpg",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "JTTUFItems",
+            "label": "Untamed Fields Items",
+            "path": "packs/JTTUFItems",
+            "type": "Item",
+            "system": "dc20rpg",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "flags": {}
+        },
+        {
+            "name": "JTTUFMonsterTraits",
+            "label": "Untamed Fields Monster Traits",
+            "path": "packs/JTTUFMonsterTraits",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "dc20rpg",
+            "flags": {}
+        }
+    ],
     "relationships": {
         "systems": [
             {
@@ -86,8 +86,8 @@
                 "type": "module",
                 "compatibility": {}
             }
-        ],
-        "manifest": "https://github.com/rashaadsama/Journey_to_the_Untamed_Fields_PE/releases/download/1.0.0/module.json",
-        "download": "https://github.com/rashaadsama/Journey_to_the_Untamed_Fields_PE/releases/download/1.0.0/journey-to-the-untamed-fields.zip"
-    }
+        ]
+    },
+    "manifest": "https://github.com/rashaadsama/Journey_to_the_Untamed_Fields_PE/releases/download/1.0.0/module.json",
+    "download": "https://github.com/rashaadsama/Journey_to_the_Untamed_Fields_PE/releases/download/1.0.0/journey-to-the-untamed-fields.zip"
 }
